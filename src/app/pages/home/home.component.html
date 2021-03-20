@@ -1,0 +1,103 @@
+<div class="page-header">
+    <div class="row align-items-md-center">
+        <div class="col-md-8">
+            <div class="d-md-flex">
+                <div class="m-b-10 m-r-20">
+                    <nz-input-group [nzPrefix]="prefixTemplate">
+                        <input type="text" nz-input placeholder="Search">
+                    </nz-input-group>      
+                    <ng-template #prefixTemplate>
+                        <i nz-icon nzType="search" class="opacity-05"></i>
+                    </ng-template>   
+                </div>
+                <div class="m-b-10 m-r-20 d-flex align-items-center">
+                    <nz-select style="min-width: 220px;" class="w-100" nzPlaceHolder="Category">
+                        <nz-option nzLabel="All" nzValue="All"></nz-option>
+                        <nz-option nzLabel="Temples" nzValue="Temples"></nz-option>
+                        <nz-option nzLabel="Mosques" nzValue="Mosques"></nz-option>
+                        <nz-option nzLabel="Gurudwaras" nzValue="Gurudwaras"></nz-option>
+                    </nz-select>
+                </div>
+                <div class="m-b-10 m-r-20 d-flex align-items-center">
+                    <nz-select style="min-width: 220px;" class="w-100" nzPlaceHolder="Status">
+                        <nz-option nzLabel="All" nzValue="All"></nz-option>
+                        <nz-option nzLabel="In Stock" nzValue="in stock"></nz-option>
+                        <nz-option nzLabel="Out Of Stock" nzValue="out of stock"></nz-option>
+                    </nz-select>
+                </div>
+            </div>  
+        </div>
+        <div class="col-md-4">
+            <div class="text-md-right m-v-10">
+                <nz-radio-group class="m-r-10" [(ngModel)]="view">
+                    <label nz-radio-button nzValue="cardView" nzTooltipTitle="Card View" nzTooltipPlacement="bottom" nz-tooltip>
+                        <i class="font-size-16" nz-icon nzType="appstore" theme="outline"></i>
+                    </label>
+                    <label nz-radio-button nzValue="listView" nzTooltipTitle="List View" nzTooltipPlacement="bottom" nz-tooltip>
+                        <i class="font-size-16" nz-icon nzType="ordered-list" theme="outline"></i>
+                    </label>
+                </nz-radio-group> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid"  *ngIf="view === 'cardView'">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let item of recipients">
+            <nz-card [nzCover]="coverTemplate">
+                <nz-skeleton [nzLoading]="loading" [nzActive]="loading">
+                    <h4 class="m-b-0">{{item.title}}</h4>
+                    <p class="m-b-15 font-size-13"><span>{{item.location.district}} , {{item.location.state}}</span></p>
+                    <p class="lh-1-8 m-b-20">
+                        <span>{{item.desc | slice:0:90}}</span>
+                        <span *ngIf="item.desc.length > 90">...</span>
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a (click)="recipientDetails(item.id)" class="text-primary" nz-button nzType="link" nzSize="small">Donate</a>
+                    </div>
+                        <ng-template #coverTemplate>
+                            <img [alt]="item.title" [src]="item.image"/>
+                        </ng-template>
+                    </nz-skeleton>
+            </nz-card>
+        </div>
+    </div>
+</div>
+
+<div class="container" *ngIf="view === 'listView'">
+    <nz-card *ngFor="let item of recipients">
+        <nz-skeleton [nzLoading]="loading" [nzActive]="loading">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" [src]="item.image" [alt]="item.title">
+                </div>
+                <div class="col-md-8">
+                    <h4 class="m-b-10">{{item.title}}</h4>
+                    <div class="m-b-15">
+                        <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <nz-avatar nzSize="small" [nzSrc]="item.icon"></nz-avatar>
+                                <div class="m-l-10">
+                                    <span class="text-gray font-weight-semibold">{{item.category}}</span>
+                                </div>
+                            </div>
+                            <div class="text-gray">
+                                <nz-divider nzType="vertical"></nz-divider>
+                                <span>{{item.location.district}} , {{item.location.state}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lh-1-8 m-b-20">
+                        <span>{{item.desc}}</span>
+                    </p>
+                    <div class="text-right">
+                        <a [routerLink]="['/pages/blog/blog-post']" class="font-weight-semibold" nz-button nzType="link">Donate</a>
+                    </div>
+                </div>
+            </div>
+        </nz-skeleton>
+    </nz-card>
+    <div class="m-t-30 text-center">
+    </div>
+</div>

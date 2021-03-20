@@ -1,0 +1,28 @@
+<nz-card>
+    <div class="container">
+        <nz-skeleton [nzLoading]="loading" [nzActive]="loading">
+            <h2 class="font-weight-normal m-b-10">{{recipientDetails.title}}</h2>
+            <div class="media align-items-center m-b-25">
+                <nz-avatar nzSrc="{{recipientDetails.icon}}"></nz-avatar>
+                <div class="m-l-10">
+                    <h6 class="m-b-0 text-uppercase">{{recipientDetails.category}}</h6>
+                    <span class="text-muted font-size-13">{{recipientDetails.location.district}} , {{recipientDetails.location.state}}</span>
+                </div>
+            </div>
+            <img class="img-fluid w-100" src="{{recipientDetails.image}}" alt="">
+            <div class="m-t-30 lh-1-8">
+                <p *ngFor="let desc of recipientDetails.longDesc">{{desc}}</p>
+            </div>
+            <hr>
+            <div class="m-t-40">
+                <h4>Amount</h4>
+                <div class="m-t-20">
+                    <button class="m-r-15 m-b-15" nz-button nzType="default" *ngFor="let item of amountListData">₹ {{item}}</button>
+                </div>
+            </div>
+            <div class="m-t-30">
+                <button nz-button nzSize="large" nzType="primary" nzBlock>Donate</button>
+            </div>
+        </nz-skeleton>
+    </div>
+</nz-card>

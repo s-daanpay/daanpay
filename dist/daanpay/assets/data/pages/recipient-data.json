@@ -1,0 +1,137 @@
+[
+    {
+        "id": "1",
+        "category": "temple",
+        "icon": "assets/images/icons/temple.svg",
+        "title": "Kashi Vishwanath",
+        "image": "assets/images/recipients/T-00003.jpg",
+        "desc": "Kashi Vishwanath Temple is one of the most famous Hindu temples dedicated to lord Shiva and is located in Varansi",
+        "longDesc": "The city of Varanasi has long been considered the spiritual capital of India. People from all over the world come to bathe in the, believed to be, healing waters of the River Ganges. The city is also one of the oldest in the world, dating back to the 11th century B.C. | A visit to Kashi Vishwanath is also believed to be a way to achieve Moksha, which is said to ultimate liberation from being reborn through the laws of Karma.",
+        "location": {
+            "landmark": "",
+            "district": "Varanasi",
+            "state": "Uttar Pradesh",
+            "country": "India"
+        }
+    },
+    {
+        "id": "2",
+        "category": "temple",
+        "icon": "assets/images/icons/temple.svg",
+        "title": "Badrinath Temple",
+        "image": "assets/images/recipients/T-00002.jpg",
+        "desc": "This holy shrine of Lord Vishnu forms a part of the four holiest sites (Char Dhams) in Hindu religion.",
+        "longDesc": "Located in the Uttarakhand area in the Himalayas, this is one of the most famous temples in India that is dedicated to Vishnu. | It is also one of the four Char Dhams, which are the holiest temples in India. The four Char Dhams represent the four directions, with Badrinath representing the North. | Now, the temple sits, a whopping, 10,248 feet (3,133 m) above sea level and can only be accessed in the summer months, when the weather is more tolerable and less chilly. So make sure to consider this before your trip.",
+        "location": {
+            "landmark": "Situated close to the Alaknanda River",
+            "district": "Chamoli",
+            "state": "Uttarakhand",
+            "country": "India"
+        }
+    },
+    {
+        "id": "3",
+        "category": "temple",
+        "icon": "assets/images/icons/temple.svg",
+        "title": "Vaishno Devi Mandir",
+        "image": "assets/images/recipients/T-00001.jpg",
+        "desc": "Vaishno Devi is present here in the form of three rock heads, called the Pindies, instead of a statue. Due to the strong faith of the people, every year millions of them come to take the blessings of Maa Vaishno Devi.",
+        "longDesc": "Located in the foothills of the mighty Himalayas in Jammu and Kashmir, Vaishno Devi is one the most important temples in India. Lakhs of devotees undertake the pilgrimage to this temple every year to pay their respects to Goddess Vaishnavi, the patron deity of this temple. | Reaching the temple requires a 12 km trek. Devotees have multiple options ranging from walking to riding a horse or even a helicopter among others to get to the top.",
+        "location": {
+            "landmark": "Situated close to the Alaknanda River",
+            "district": "Chamoli",
+            "state": "Uttarakhand",
+            "country": "India"
+        }
+    },
+    {
+        "id": "4",
+        "category": "mosque",
+        "icon": "assets/images/icons/mosque.svg",
+        "title": "Jama Masjid",
+        "image": "assets/images/recipients/M-00003.jpg",
+        "desc": " Jama Masjid of Delhi also called Masjid-i Jahānnumā, mosque in Old Delhi, India, constructed in 1650–56 by the Mughal emperor Shah Jahān, a noted patron of Islamic architecture whose most famous work is the Taj Mahal, in Agra. Jama Masjid, now the second largest mosque on the Indian subcontinent, is also an impressive example of Mughal architecture.",
+        "longDesc": "The largest mosque in India capable to accommodate around 25,000 devotees during prayer, Delhi Jama Masjid ranks among the worlds’ most popular Muslim religious sites. An inseparable part of Delhi tourism, this architectural extravaganza was constructed by Mughal emperor Shah Jahan in 1644. | The mosque is about 261 feet (80 m) long and 90 feet (27 m) wide. To make resemblance with the Jama Masjid of Agra, the floor of this mosque had been covered with white and black ornamented marbles (making it look like a Muslim prayer mat). | The inlay detailing in the interior arches looks impressive till date. The northern gate of Delhi Jama Masjid has 39 steps and the southern side has 33 steps. The eastern gate to this mosque was made for the rural entrance and it has 35 steps.",
+        "location": {
+            "landmark": "",
+            "district": "Central Delhi",
+            "state": "Delhi",
+            "country": "India"
+        }
+    },
+    {
+        "id": "5",
+        "category": "mosque",
+        "icon": "assets/images/icons/mosque.svg",
+        "title": "Makkah Masjid",
+        "image": "assets/images/recipients/M-00002.jpg",
+        "desc": "One of the oldest mosques in India, this Muslim religious site was constructed by Muhammad Quli Qutb Shah, the fifth ruler of the Qutb Shahi dynasty",
+        "longDesc": "An easy to view architectural genius from the top of the Charminar in Hyderabad, Makkah Masjid or Mecca Masjid is located close to the historic landmarks of Chowmahalla Palace, Laad Bazaar. One of the oldest mosques in India. | This Muslim religious site was constructed by Muhammad Quli Qutb Shah, the fifth ruler of the Qutb Shahi dynasty. It is believed that the bricks used for constructing central arch of the mosque were soil-made and were brought all the way from the hallowed city of Mecca in Saudi Arabia. | The main prayer hall of this mosque rises around 75 feet above the ground and can accommodate around 10,000 people at a time.",
+        "location": {
+            "landmark": "",
+            "district": "Hyderabad",
+            "state": "Telangana",
+            "country": "India"
+        }
+    },
+    {
+        "id": "6",
+        "category": "mosque",
+        "icon": "assets/images/icons/mosque.svg",
+        "title": "Jamali-Kamali Mosque",
+        "image": "assets/images/recipients/M-00001.jpg",
+        "desc": "this archaeological splendour is found in Mehrauli Archaeological Park and encloses one mosque along with two tombs of Jamali and Kamali.",
+        "longDesc": "A 16th century monument standing in ruins, Jamali-Kamali Mosque and Tomb is located in Mehrauli, Delhi near famous archaeological site of Qutub Minar. Built in 1528-29, this archaeological splendour is found in Mehrauli Archaeological Park and encloses one mosque along with two tombs of Jamali and Kamali. | Built in Red Sandstone with Marble-facing, this mosque is positioned in an enclosed garden area and includes large courtyard, prayer hall, five arches with the central arch having a dome. The mosque is considered to be a pioneer of Mughal Architecture especially the Jhorokha System.",
+        "location": {
+            "landmark": "",
+            "district": "Mehrauli",
+            "state": "Delhi",
+            "country": "India"
+        }
+    },
+    {
+        "id": "7",
+        "category": "gurdwara",
+        "icon": "assets/images/icons/gurudwara.svg",
+        "title": "Gurudwara Hari Mandir Sahib",
+        "image": "assets/images/recipients/G-00003.jpg",
+        "desc": "Hari Mandir Sahib is the most famous Gurudwara in India. Located in Amritsar, this Gurudwar is popular by the name of Golden Temple.",
+        "longDesc": "Hari Mandir Sahib is the most famous Gurudwara in India. Located in Amritsar, this Gurudwar is popular by the name of Golden Temple. | In 1588, Guru Arjan laid the foundation stone of this sacred shrine and it was in 1604 that he placed the Holy Scripture called Adi Granth here. In 19th century, in order to protect this shrine, Maharaja Ranjit Singh covered the upper floors with the sheets of Gold, which later gave the Gurudwara its modern name ‘Golden Temple’. | There are four gates in Golden Temple that symbolizes that Sikhs accepts people from all walks of life. Harmandir Sahib is not only has important as a religious structure but it has historical significance as well. Inside the gurdwara are several memorial items that commemorate rich past of Sikh like events, saints, martyrs and includes commemorative inscriptions of all the Sikh soldiers who died in World War I and II.",
+        "location": {
+            "landmark": "",
+            "district": "Amritsar",
+            "state": "Punjab",
+            "country": "India"
+        }
+    },
+    {
+        "id": "8",
+        "category": "gurdwara",
+        "icon": "assets/images/icons/gurudwara.svg",
+        "title": "Gurudwara Bangla Sahib",
+        "image": "assets/images/recipients/G-00002.jpg",
+        "desc": "Gurudwara was built to commemorate the stay of eighth Sikh Guru Har Krishan here. As mentioned earlier, this sacred edifice was once a bungalow that was owned by Maharaja Jai Singh.",
+        "longDesc": "Located in the heart of Delhi, Gurudwara Bangla Sahib is one of the imminent landmarks of the capital city. Built between the 17th and the 18th century (In the 17th century it was a bungalow and in the 18th century new construction was done, this Gurudwara was built to commemorate the stay of eighth Sikh Guru Har Krishan here. | As mentioned earlier, this sacred edifice was once a bungalow that was owned by Maharaja Jai Singh. Guru Har Krishan stayed here in 1664, when Delhi was under the influence of chicken pox and cholera epidemic. He helped the people by giving them clean water from the nearby well. Unfortunately, Guru Har Krishan contracted the illness and died here. In order to pay homage to Guru Har Krishan, Maharaja Jai Singh built a tank over the well, which is believed to have healing property. Today, Gurudwara Bangla Sahib is one of the most famous Gurudwaras in Delhi.",
+        "location": {
+            "landmark": "",
+            "district": "New Delhi",
+            "state": "Delhi",
+            "country": "India"
+        }
+    },
+    {
+        "id": "9",
+        "category": "gurdwara",
+        "icon": "assets/images/icons/gurudwara.svg",
+        "title": "Gurudwara Baba Atal Sahib",
+        "image": "assets/images/recipients/G-00001.jpg",
+        "desc": "Gurudwara Baba Atal Sahib in Amritsar is often over-shadowed due to the extreme popularity of Guru Harminder Sahib aka Golden Temple, yet this sacred shrine is one of the best Gurudwaras in India.",
+        "longDesc": "Although Gurudwara Baba Atal Sahib in Amritsar is often over-shadowed due to the extreme popularity of Guru Harminder Sahib aka Golden Temple, yet this sacred shrine is one of the best Gurudwaras in India. | Gurudwara Baba Atal Sahib was built to commemorate the early death of the son of Guru Hargobind Singh. Baba Atal died at the tender age of 9 years and the place where he renounced the world is the exact location of the Gurudwara. This nine-storied tower is one of its kinds as its architecture differs from the other Sikh worship places in India. It was built between 1778 and 1784 and since then has been frequented by devotees.",
+        "location": {
+            "landmark": "",
+            "district": "Amritsar",
+            "state": "Punjab",
+            "country": "India"
+        }
+    }
+]
